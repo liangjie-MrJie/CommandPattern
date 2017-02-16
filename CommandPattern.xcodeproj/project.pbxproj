@@ -13,6 +13,10 @@
 		DCCC0D131E557B7E00F26B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC0D111E557B7E00F26B50 /* Main.storyboard */; };
 		DCCC0D151E557B7E00F26B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC0D141E557B7E00F26B50 /* Assets.xcassets */; };
 		DCCC0D181E557B7E00F26B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC0D161E557B7E00F26B50 /* LaunchScreen.storyboard */; };
+		DCCC0D221E557FAD00F26B50 /* Skill_Q.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC0D211E557FAD00F26B50 /* Skill_Q.m */; };
+		DCCC0D251E55802C00F26B50 /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC0D231E55802C00F26B50 /* Summoner.m */; };
+		DCCC0D281E5580DD00F26B50 /* GaiLun.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC0D271E5580DC00F26B50 /* GaiLun.m */; };
+		DCCC0D2B1E55834100F26B50 /* OuterDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC0D2A1E55834100F26B50 /* OuterDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		DCCC0D141E557B7E00F26B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCC0D171E557B7E00F26B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCC0D191E557B7E00F26B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC0D1F1E557F6B00F26B50 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		DCCC0D201E557FAD00F26B50 /* Skill_Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill_Q.h; sourceTree = "<group>"; };
+		DCCC0D211E557FAD00F26B50 /* Skill_Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill_Q.m; sourceTree = "<group>"; };
+		DCCC0D231E55802C00F26B50 /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
+		DCCC0D241E55802C00F26B50 /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
+		DCCC0D261E5580DC00F26B50 /* GaiLun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaiLun.h; sourceTree = "<group>"; };
+		DCCC0D271E5580DC00F26B50 /* GaiLun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaiLun.m; sourceTree = "<group>"; };
+		DCCC0D291E55834100F26B50 /* OuterDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OuterDevice.h; sourceTree = "<group>"; };
+		DCCC0D2A1E55834100F26B50 /* OuterDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,11 @@
 		DCCC0CFC1E557B7E00F26B50 = {
 			isa = PBXGroup;
 			children = (
+				DCCC0D1F1E557F6B00F26B50 /* Command.h */,
+				DCCC0D201E557FAD00F26B50 /* Skill_Q.h */,
+				DCCC0D211E557FAD00F26B50 /* Skill_Q.m */,
+				DCCC0D291E55834100F26B50 /* OuterDevice.h */,
+				DCCC0D2A1E55834100F26B50 /* OuterDevice.m */,
 				DCCC0D071E557B7E00F26B50 /* CommandPattern */,
 				DCCC0D061E557B7E00F26B50 /* Products */,
 			);
@@ -58,6 +76,10 @@
 		DCCC0D071E557B7E00F26B50 /* CommandPattern */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC0D241E55802C00F26B50 /* Summoner.h */,
+				DCCC0D231E55802C00F26B50 /* Summoner.m */,
+				DCCC0D261E5580DC00F26B50 /* GaiLun.h */,
+				DCCC0D271E5580DC00F26B50 /* GaiLun.m */,
 				DCCC0D0B1E557B7E00F26B50 /* AppDelegate.h */,
 				DCCC0D0C1E557B7E00F26B50 /* AppDelegate.m */,
 				DCCC0D0E1E557B7E00F26B50 /* ViewController.h */,
@@ -152,8 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCC0D101E557B7E00F26B50 /* ViewController.m in Sources */,
+				DCCC0D251E55802C00F26B50 /* Summoner.m in Sources */,
 				DCCC0D0D1E557B7E00F26B50 /* AppDelegate.m in Sources */,
+				DCCC0D281E5580DD00F26B50 /* GaiLun.m in Sources */,
 				DCCC0D0A1E557B7E00F26B50 /* main.m in Sources */,
+				DCCC0D2B1E55834100F26B50 /* OuterDevice.m in Sources */,
+				DCCC0D221E557FAD00F26B50 /* Skill_Q.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +338,7 @@
 				DCCC0D1E1E557B7E00F26B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
